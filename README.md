@@ -152,6 +152,8 @@ SDK架构设计如图：
 
 `ElectronBotSDK-UnityBridge`工程编译生成的DLL文件需要拷贝到`Unity\ElectronBot-Studio\Assets\Plugins`目录下，用于连接本地的C++代码和Unity中C#环境。
 
+> **对了，注意ElectronStudio中目前选择图片视频文件还不支持中文路径！**
+
 关于SDK的具体实现细节可以阅读源码，我晚点有空也会再更新描述。
 
 ### 有的问题在Issues里面已经解答了，问问题之前先翻一下open/closed的Issues。
